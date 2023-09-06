@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO PAGE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skin.css">
+    <link rel="stylesheet" href="css/colors/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="js/app.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/typing.js" defer></script>
+    <link rel="stylesheet" href="css/colors/color-1.css" class="alternate-color" title="color-1" disabled>
+    <link rel="stylesheet" href="css/colors/color-2.css" class="alternate-color" title="color-2" disabled>
+    <link rel="stylesheet" href="css/colors/color-3.css" class="alternate-color" title="color-3" disabled>
+    <link rel="stylesheet" href="css/colors/color-4.css" class="alternate-color" title="color-4" disabled>
+    <link rel="stylesheet" href="css/colors/color-5.css" class="alternate-color" title="color-5" disabled>
+    <link rel="shortcut icon" href="images/favi.png" type="image/x-icon">
+</head>
+<body class="body dark">
+
+    <!------------NavBar Container----->
+
+    <section class="main_Container">
+        <div class="logo">
+            <a href="#"><span>A</span>tlas</a>
+        </div>
+
+        <ul class="nav">
+            <li><a href="#home"><i class="fa-solid fa-house"></i>home</a></li>
+            <li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
+            <li><a href="#service"><i class="fa-solid fa-list"></i>service</a></li>
+            <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>portfolio</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-comments"></i>contact</a></li>
+        </ul>
+    </section>
+
+    <button id="navBar_Btn"><i class="fa-solid fa-bars"></i></button>
+
+    <!----------------Main Container--------->
+
+    <section class="all_Containers">
+        <!-------------Home Container------------>
+
+        <section class="home_Container section active" id="home">
+            <div class="left_container">
+                <h1>Hello, my name is <span id="name">Silambarasan.S</span></h1>
+                <div class="my_container">
+                    <h1>I am an <span id="typing"></span></h1>
+                </div>
+                <p>i'm a web Designer with extensive experience for over 10 years.
+                    My expertise is to create and website design,graphic design,  and many more.....</p>
+                <button><a href="#about">More About Me</a></button>
+            </div>
+            <div class="right_container">
+                <div class="right_content">
+                    <img src="images/profile.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!------------------------Settings Container----->
+
+        <div class="settings_Container">
+            <div class="set_Btns">
+                <button id="open_Btn"><i class="fa-solid fa-gear fa-spin"></i></button>
+                <button class="mode_Btn"><i class="fa-solid "></i></button>
+            </div>
+            <div class="color_Container" style="display: none;">
+                <h3>themes color</h3>
+                <div class="color_Items">
+                    <button class="color orangered" onclick="setActiveStyle('color-1')"></button>
+                    <button class="color orange" onclick="setActiveStyle('color-2')"></button>
+                    <button class="color green" onclick="setActiveStyle('color-3')"></button>
+                    <button class="color blue" onclick="setActiveStyle('color-4')"></button>
+                    <button class="color pink" onclick="setActiveStyle('color-5')"></button>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------About Container------------------>
+
+
+        <section class="about_container section" id="about">
+            <h1>about me</h1>
+            <h2 class="name">i'm an cybersecurity Researcher and <span> webdeveloper</span>.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ab doloremque necessitatibus explicabo voluptate nam possimus qui expedita. Qui, perspiciatis! 
+                Dolor ab maiores explicabo aperiam fuga nostrum. Veritatis, voluptates necessitatibus.</p>
+            
+            <div class="bio_Container">
+                <div class="address_Container">
+                    <ul>
+                        <li><b>Birthday</b> :<span>24/08/2004</span></li>
+                        <li><b>Website</b> :<span>none</span></li>
+                        <li><b>Degree</b> :<span>B.tech</span></li>
+                        <li><b>City</b> :<span>Nattrampalli</span></li>
+                        <li><b>Age</b> :<span>19</span></li>
+                        <li><b>Email</b> :<span>123@gmail.com</span></li>
+                        <li><b>Phone</b> :<span>012-345-6789</span></li>
+                        <li><b>Freelance</b> :<span>Free</span></li>
+                    </ul>
+                    <div class="download_Container">
+                        <button>Download CV</button>
+                        <button>Hire Me</button>
+                    </div>
+                </div>
+                <div class="skills_Container">
+                    <ul class="skills_Items">
+                        <!----From main.Js -->
+                    </ul>
+                </div>
+            </div>
+
+            <section class="about_info">
+                <div class="about_info_container">
+                    <div class="education">
+                        <h3>Education</h3>
+                        <ul class="listItems">
+                            <!---From main.js-->
+                        </ul>
+                    </div>
+
+                    <div class="experiance education">
+                        <h3>experiance</h3>
+                        <ul class="listItems experiance_Items">
+                            <!---From main.js-->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <!----------------------Service Container------------->
+
+        <section class="service_Container section" id="service">
+            <h1>Services</h1>
+            <div class="service_Contents">
+                <!-- From main.js -->
+            </div>
+        </section>
+
+        <!---------------Portfolio Container--------->
+
+        <section class="portfolio_Container section" id="portfolio">
+            <h1>portfolio</h1>
+            <div class="image_Container">
+                <h2>My Projects : </h2>
+                <div class="image_Items">
+                    <img src="images/1.jpg" alt="">
+                    <img src="images/2.webp" alt="" srcset="">
+                    <img src="images/3.jpg" alt="" srcset="">
+                    <img src="images/4.jpg" alt="" srcset="">
+                    <img src="images/5.jpg" alt="">
+                    <img src="images/6.webp" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-----------Contact Container-------->
+
+        <section class="contact_Contrainer section" id="contact">
+            <h1>Contact Me</h1>
+            <div class="contact_content">
+                <h2>hava you any question ?</h2>
+                <h3>i'm at your service</h3>
+                <div class="contact_Items">
+                    <!-- From main.js -->
+                </div>
+            </div>
+
+                <div class="email_content">
+                    <h2>send me an email</h2>
+                    <h3>i'm very responsive to meessage</h3>
+
+                    <form>
+                        <div class="user_field">
+                            <input type="text" name="" id="" placeholder="Name" required>
+                            <input type="email" name="" id="" placeholder="Email" required>
+                        </div>
+                        <input type="text" name="" id="" placeholder="subject" required>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button>send message</button>
+                    </form>
+                </div>
+
+        </section>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+     integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
