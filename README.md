@@ -1,13 +1,13 @@
-Portfolio-me : 
+## Portfolio-me : 
 
 ##This wbsite was written in HTML , CSS and JAVASCRIPT.
 
-###About Me
+### About Me
   Hi Guys. I am Silambarasan , I am studying in B.Tech-Information Technology.I am currently learning in   CyberSecurity....
   I have created a severable websites..
 
-  ####SKILLS
-    --> WEBDEVELOPEMNT
+  #### SKILLS
+  --> WEBDEVELOPEMNT
             1. Html
             2. Css
             3. JavaScript
